@@ -13,6 +13,6 @@ public class TestDemo {
         while (treeSet.size() < 6) {
             treeSet.add((int) (Math.random() * 31) + 1);
         }
-        System.out.println("红色球中奖号码："+treeSet+"\n蓝色球中奖号码："+((int) (Math.random() * 15) + 1));
+        System.out.println("红球号码：" + treeSet + "\n篮球号码：" + ((int) (Math.random() * 15) + 1));
     }
 }
